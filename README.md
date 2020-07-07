@@ -4,7 +4,7 @@ a Firefox extension for expanding BoardGameGeek links by name
 
 ## Installation
 
-<TODO>
+Click "Add to Firefox" from the Mozilla add-on page: https://addons.mozilla.org/en-US/firefox/addon/boardgamegeek-link-expander/
 
 ## Usage
 
