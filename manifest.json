@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Firefox BGG",
+  "version": "1.0",
+  "description": "Expands text to links on BoardGameGeek for easy linking by typing Ctrl+j",
+  "icons": {
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.boardgamegeek.com/*"],
+      "js": ["bgg.js"]
+    }
+  ]
+}
