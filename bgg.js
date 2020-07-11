@@ -52,8 +52,8 @@ document.addEventListener('keydown', function(event) {
       start = event.target.selectionStart;
       end = event.target.selectionEnd;
       event.target.value = event.target.value.substr(0, hashIdx) + replaceText + event.target.value.substr(lastIdx);
-      event.target.selectionStart = start;
-      event.target.selectionEnd = end;
+      event.target.selectionStart = hashIdx + replaceText.length;
+      event.target.selectionEnd = hashIdx + replaceText.length;
     }
     xhr.open("GET", "https://boardgamegeek.com/xmlapi2/search?query=" + query + "&type=boardgame");
     xhr.send();

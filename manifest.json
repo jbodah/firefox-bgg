@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "BGG Link Expander",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Expands text to links on BoardGameGeek for easy linking by typing Ctrl+j",
   "icons": {
   },
